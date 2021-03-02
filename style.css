@@ -1,0 +1,47 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+    background-color: #C7E6CF;
+    color: #34826C;
+    padding: 10px;
+}
+
+#output {
+    margin: 1%;
+}
+
+.msg {
+    margin-bottom: 1%;
+}
+
+.get_name {
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.get_msg {
+    display: inline-block;
+    padding: 5px 15px;
+    border: #C7E6CF solid 1px;
+    border-radius: 25px;
+    background-color: #C7E6CF;
+}
+
+.container {
+    text-align: center;
+}
+
+.text {
+    margin: 1%;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    padding: 5px 10px;
+}
