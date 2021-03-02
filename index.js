@@ -4,7 +4,7 @@ let room = "chatlog";
 const send = document.getElementById("send");
 const name = document.getElementById("name");
 const message = document.getElementById("message");
-const output = document.getElementById("output");
+const output = document.getElementById("chat");
 
 //送信
 send.addEventListener('click', function() {
@@ -24,5 +24,5 @@ database.ref(room).on("child_added", function(data) {
     let str = "";
     str += '<div class="msg"><div class="get_name">'+val.name+'</div>';
     str += '<div class="get_msg">'+val.message+'</div></div>';
-    output.innerHTML += str;
+    chat.innerHTML += str;
 });
